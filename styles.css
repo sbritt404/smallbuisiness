@@ -1,0 +1,63 @@
+body {
+    font-family: cursive;
+    text-align: center;
+}
+
+header {
+    letter-spacing: 6px;
+    padding: 20px;
+    background-color: pink;
+    color: black;
+}
+
+h2 {
+    font-size: 2em;
+    width: 100%;
+}
+
+section {
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ccc;
+    background-color: lavender;
+    padding: 25px;
+    padding: 25px;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+}
+
+.icons{
+    font-size: 8em;
+    padding: 25px;
+}
+
+button, .button{
+    background-color: paleturquoise;
+    border: 0;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.blue{
+    background-color: turquoise;
+}
+
+@media screen and (min-width: 50em) {
+    .card {
+        flex-basis: 325px;
+    }
+
+    header h1 {
+        font-size: 5em;
+    }
+}
